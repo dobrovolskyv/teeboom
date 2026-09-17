@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ананасовый улун — Чайный Бум</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="https://teaboom.ru/" class="header__logo">
+        <img class="header__logo-img" src="./images/logo.png" alt="Чайный Бум">
+        <div class="header__brand">
+          <span class="header__name">Чайный Бум</span>
+          <span class="header__subtitle">Интернет-магазин чая и посуды</span>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <nav class="breadcrumb">
+        <ul class="breadcrumb__list">
+          <li><a href="#">Начало</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Улун</a></li>
+          <li><a href="#">Ароматизированный улун</a></li>
+          <li>Ананасовый улун</li>
+        </ul>
+      </nav>
+
+      <section class="product-card">
+        <img class="product-card__image" src="./images/prod.jpg" alt="Ананасовый улун">
+
+        <div class="product-card__info">
+          <div class="product-card__header">
+            <a class="product-card__category" href="#">Ароматизированный улун</a>
+            <h1 class="product-card__name">Ананасовый улун</h1>
+          </div>
+
+          <div class="product-card__order">
+            <p class="product-card__order-text">Фасовка</p>
+            <div class="product-card__tabs">
+              <button class="product-card__tab product-card__tab--active" type="button">100 г</button>
+              <button class="product-card__tab" type="button">500 г</button>
+              <button class="product-card__tab" type="button">1000 г</button>
+              <button class="product-card__tab" type="button">5000 г</button>
+            </div>
+
+            <div class="product-card__panels">
+              <div class="product-card__panel product-card__panel--active">
+                <p class="product-card__sku">Артикул: <span>01306</span></p>
+                <p class="product-card__price">
+                  <span class="product-card__price-old">349,20 ₽</span>
+                  <span class="product-card__price-current">326,40 ₽</span>
+                </p>
+              </div>
+              <div class="product-card__panel">
+                <p class="product-card__sku">Артикул: <span>01307</span></p>
+                <p class="product-card__price">
+                  <span class="product-card__price-old">1 646 ₽</span>
+                  <span class="product-card__price-current">1 432 ₽</span>
+                </p>
+              </div>
+              <div class="product-card__panel">
+                <p class="product-card__sku">Артикул: <span>01308</span></p>
+                <p class="product-card__price">
+                  <span class="product-card__price-old">2 592 ₽</span>
+                  <span class="product-card__price-current">2 064 ₽</span>
+                </p>
+              </div>
+              <div class="product-card__panel">
+                <p class="product-card__sku">Артикул: <span>01309</span></p>
+                <p class="product-card__price">
+                  <span class="product-card__price-old">8 710 ₽</span>
+                  <span class="product-card__price-current">6 320 ₽</span>
+                </p>
+              </div>
+            </div>
+
+
+            <button type="button" class="product-card__cart-btn">
+              <span class="product-card__cart-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="21" r="1" />
+                  <circle cx="20" cy="21" r="1" />
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                </svg>
+              </span>
+              <span>В корзину</span>
+            </button>
+          </div>
+
+          <section class="product-card__description">
+            <h2 class="product-card__description-title">Описание</h2>
+            <div class="product-card__description-text">
+              <p>
+                Состав: китайский бирюзовый чай, цукаты, натуральные ароматические масла.
+                Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде — красивый крупный
+                лист изумрудного цвета, скруткой листа напоминающий Те Гуань Инь.
+              </p>
+              <h3 class="product-card__description-subtitle">Вкус</h3>
+              <p>
+                Настой прозрачный, светло-янтарного цвета. Классическая нота светлого
+                фуцзяньского улуна переплетается с яркой ананасовой нотой.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">© Чайный Бум — интернет-магазин чая</p>
+    </div>
+  </footer>
+
+  <div class="popup">
+    <img src="./images/prod.jpg" alt="">
+    <div class="popup__content">
+      <h3>Ананасовый улун</h3>
+      <p>Товар добавлен в корзину</p>
+      <a href="#">Оформить заказ</a>
+    </div>
+
+    <button class="popup__close-btn">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <path d="M6 6L18 18" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+          <path d="M18 6L6 18" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+        </g>
+      </svg>
+    </button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
